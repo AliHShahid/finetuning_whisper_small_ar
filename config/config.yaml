@@ -7,7 +7,7 @@ model:
   generation_config:
     num_beams: 5
     repetition_penalty: 1.2
-    no_repeat_ngram_size: 0
+    no_repeat_ngram_size: 3
     early_stopping: true
   lora:
     enabled: true
