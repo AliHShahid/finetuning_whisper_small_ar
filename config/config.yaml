@@ -26,7 +26,7 @@ data:
   csv_path: ""
   metadata_path: ""
   readerlist_path: "readerlist.tsv"
-  allowed_readers: [] # Empty list means full dataset (excluding filtered)
+  allowed_readers: ["Alafasy_64kbps", "Husary_64kbps", "AbdulSamad_64kbps", "Abdul_Basit_Murattal_64kbps"]
   kaggle_dataset: "bigguyubuntu/quran-ayat-speech-to-text"
   kaggle_file_path: ""
   audio_column: "audio"
