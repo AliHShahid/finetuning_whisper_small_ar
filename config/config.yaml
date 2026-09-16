@@ -58,7 +58,7 @@ training:
   adam_epsilon: 1.0e-8
   eval_steps: 300
   logging_steps: 50
-  save_steps: 200
+  save_steps: 300
   save_total_limit: 3
   early_stopping_patience: 5
   fp16: true
