@@ -257,7 +257,7 @@ class WhisperTrainer:
         
         # Train
         # trainer.train()
-        trainer.train(resume_from_checkpoint="/kaggle/working/finetuning_whisper_small_ar/models/whisper-finetuned/checkpoint-600")
+        trainer.train(resume_from_checkpoint="/kaggle/working/finetuning_whisper_small_ar/models/whisper-finetuned/checkpoint-1200")
         
         # Save model
         self.save_model(trainer)
