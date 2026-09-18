@@ -1,7 +1,7 @@
 # Whisper Fine-tuning Configuration
 model:
   name: "openai/whisper-small"
-  max_length: 448
+  max_length: 158
   language: "ar"
   task: "transcribe"
   generation_config:
