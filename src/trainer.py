@@ -256,8 +256,8 @@ class WhisperTrainer:
         trainer = Seq2SeqTrainer(**trainer_kwargs)
         
         # Train
-        trainer.train()
-        # trainer.train(resume_from_checkpoint="/kaggle/working/finetuning_whisper_small_ar/models/whisper-finetuned/checkpoint-1200")
+        # trainer.train()
+        trainer.train(resume_from_checkpoint="/kaggle/working/finetuning_whisper_small_ar/models/whisper-finetuned/checkpoint-600")
         
         # Save model
         self.save_model(trainer)
